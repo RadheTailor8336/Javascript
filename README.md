@@ -1,2 +1,2 @@
 # Javascript
-A code repo fot Javascript series
+A code repo for Javascript series
