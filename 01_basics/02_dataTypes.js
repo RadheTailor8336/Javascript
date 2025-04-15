@@ -10,7 +10,7 @@ console.log("Radhey")
 
 let name = "Rohit"
 let age = 20
-let isLoggedIN = false
+let isLoggedIn = false
 let state ; 
 
 // number => 2 to power 53
