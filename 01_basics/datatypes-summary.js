@@ -20,7 +20,15 @@ const anotherId= Symbol('123')
 console.log(id  ==  anotherId)
 
 
+const bigNUmber = 3455677787n
 
 // Reference(Non Primitive)
 
 // Array, Objects, Functions
+
+const heros = ["shaktiman", "naagraj","doga"] //Array
+
+{ 
+   name: "radhe",
+   age: 22,
+}
