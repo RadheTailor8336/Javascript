@@ -60,3 +60,28 @@ console.log(typeof bigNUmber);
         Function  =>  function
         Object  =>  object
   */
+
+      //+++++++++++++++++++++++++++++++++++++++++
+   // Stack (Primitive)-copy value milta hai, Heap(Non- Primitive)-reference milta hai
+
+let myYoutubename= "radhetailor123.com"
+
+let anothername = myYoutubename
+anothername = "chai or code"
+
+console.log(myYoutubename);
+console.log(anothername);
+
+//Heap: Non primitive - reference is used, since refrence is used changes will reflect in original also. (When you take refrence back from heap , you dont get a copy, you get refrence of original value)
+let userOne ={
+   email: "user@google.com",
+   upi: "user@ybl"
+}
+
+let userTwo = userOne
+
+userTwo.email ="hitesh@google.com"
+
+console.log(userOne.email);
+console.log(userTwo.email);
+//here we made change in userTwo but it will reflect in userOne as well.
