@@ -1,4 +1,9 @@
-//array
+//array-
+/**
+ * An array in JavaScript is a dynamic, ordered collection of elements indexed by non-negative integers.
+ *  It can store values of any data type and provides built-in methods for traversal and manipulation such as
+ *  push(), pop(), slice(), and splice().
+ */
 
 const myArr = [0,1,2,3,4,5] // first method to create an array
 const myHeors = ["shsktiman","naagaraj"]
