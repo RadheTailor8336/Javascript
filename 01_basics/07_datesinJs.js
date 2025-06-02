@@ -11,4 +11,5 @@ let myDate = new Date()
 //console.log(myCreatedDate.toDateString()); // output = Mon Jan 23 2023
 let myCreatedDate= new Date(2023,0,23,5,3);
 console.log(myCreatedDate.toLocaleString()); //output= 1/23/2023, 5:03:00 AM
+hello
 
