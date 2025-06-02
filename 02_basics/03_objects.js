@@ -1,0 +1,4 @@
+//singleton 
+
+//object literals
+
