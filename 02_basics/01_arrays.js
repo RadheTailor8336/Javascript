@@ -30,12 +30,13 @@ const myArr2 = new Array(1,2,3,4) // second method to create an array
 
 console.log("A", myArr);
 
-const myn1 = myArr.slice(1,3);
+const myn1 = myArr.slice(1,3);//➡️ slice(1, 3) ka matlab hai: index 1 aur 2 ke elements: =[1, 2]
+                            //Important: slice() original array change nahi karta, sirf copy deta hai.
 
 console.log(myn1);
 console.log("B", myArr);
 
-const myn2= myArr.splice(1,3)
+const myn2= myArr.splice(1,3) //➡️ splice(1,3) ka matlab:index 1 se shuru karo,3 items delete karo:
 console.log("C", myArr);
 console.log(myn2);
 
