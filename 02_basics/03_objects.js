@@ -20,14 +20,28 @@ const Jsuser ={
 }
 
 //method to get acces the object
-console.log(Jsuser.email)
-console.log(Jsuser["email"])
-console.log(Jsuser["full name"])
-console.log(Jsuser [mySym])
-console.log(typeof mySym)
+// console.log(Jsuser.email)
+// console.log(Jsuser["email"])
+// console.log(Jsuser["full name"])
+// console.log(Jsuser [mySym])
+// console.log(typeof mySym)
 
 Jsuser.email = "radhe@chargpt.com"// objects ki value ko change or override krte hai
-console.log(Jsuser.email)
-Object.freeze(Jsuser)
+//console.log(Jsuser.email)
+//Object.freeze(Jsuser) // object mein modification ko freeze kr deta hai
 Jsuser.email = "radhe@microsoft.com"
-console.log(Jsuser)
+//console.log(Jsuser);
+
+Jsuser.greeting = function(){  //function declaration
+    console.log("Hello Js user");
+}
+
+
+Jsuser.greetingTwo = function(){  //function declaration
+    console.log(`Hello Js user, ${this.name}`);
+}
+
+
+console.log(Jsuser.greeting());
+console.log(Jsuser.greetingTwo());
+
