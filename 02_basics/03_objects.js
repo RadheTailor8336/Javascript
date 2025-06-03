@@ -2,6 +2,29 @@
 //Object.create
 
 
+/**   -------Objects----------
+ * 
+ * In JavaScript, an object is a collection of key-value pairs used to store and organize data. 
+ * Keys are strings (or Symbols), and values can be of any data type,
+ *  including functions, which makes objects ideal for representing real-world entities.
+ * 
+ * Example:
+javascript
+Copy code
+const user = {
+  name: "Radhe",
+  age: 21,
+  greet: function() {
+    console.log("Hello!");
+  }
+};
+ * 
+ * 
+ * 
+ * 
+ */
+
+
 
 
 //object literals
