@@ -43,9 +43,22 @@ const users =[
 users[1].email
 console.log(tinderUser);
 
-console.log(Object.keys(tinderUser)); // object ki keys btata hai array ke under, op=[ 'id', 'name', 'isLoggedIn' ]
-console.log(Object.values(tinderUser)); // object ke keys ki value btata hai array ke under,op=[ '123abc', 'Sammy', false ]
-console.log(Object.entries(tinderUser));// objects ki keys and values dono btata hai in array , op=[ [ 'id', '123abc' ], [ 'name', 'Sammy' ], [ 'isLoggedIn', false ] ] 
+// console.log(Object.keys(tinderUser)); // object ki keys btata hai array ke under, op=[ 'id', 'name', 'isLoggedIn' ]
+// console.log(Object.values(tinderUser)); // object ke keys ki value btata hai array ke under,op=[ '123abc', 'Sammy', false ]
+// console.log(Object.entries(tinderUser));// objects ki keys and values dono btata hai in array , op=[ [ 'id', '123abc' ], [ 'name', 'Sammy' ], [ 'isLoggedIn', false ] ] 
 
 
 console.log(tinderUser.hasOwnProperty('isLoggedIn'));// object ke under koi property exist krti hain ki nahi , gives the output in boolean ,output=true
+
+
+const course ={
+    coursename: "js in hindi",
+    prince : "999",
+    courseInstructor: "hitesh",
+
+}
+//course.courseInstructor
+
+const {courseInstructor:instructor}= course // object keys ko access krta hai,(courseInstructor:instructor) is se key value ka name change kr skte hai
+//console.log(courseInstructor)
+console.log(instructor)// 
