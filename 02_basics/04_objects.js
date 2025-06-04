@@ -62,3 +62,12 @@ const course ={
 const {courseInstructor:instructor}= course // object keys ko access krta hai,(courseInstructor:instructor) is se key value ka name change kr skte hai
 //console.log(courseInstructor)
 console.log(instructor)// 
+
+
+  // json(javascript object notaion)
+// {
+//    "name": "hitesh",
+//    "coursename": "js in hindi",
+//     "price":"free"
+// }
+
