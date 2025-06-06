@@ -49,4 +49,3 @@ if(userLoggedIn && debitCard ){ // dono condition ture honi chhaiye
 if(loggedInfromGoogle || loggedInfromEmail){ // koi ek condition honi chaiye
      console.log("User logged in ");
 }
-
