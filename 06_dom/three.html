@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Chai aur code</title>
+</head>
+<body style="background-color: #212121; color:#fff;">
+  <!-- Empty body -->
+</body>
+
+<script>
+  // <h1> element create karte hain
+  const div = document.createElement('h1');
+
+  // Console mein element ko print karne ke liye
+  console.log(div);
+
+  // Element ko "main" class dete hain
+  div.className = "main";
+
+  // Element ko ek random ID assign karte hain (1 se 11 ke beech mein)
+  div.id = Math.round(Math.random() * 10 + 1);
+
+  // Element ko ek custom attribute "title" set karte hain
+  div.setAttribute("title", "generate title");
+
+  // Element ka background color green set karte hain
+  div.style.backgroundColor = "green";
+
+  // Element ke andar padding dete hain (12px)
+  div.style.padding = "12px";
+
+  // Element ke andar initial text daalte hain
+  div.innerText = "Chai aur code";
+
+  // Ek extra text node create karte hain
+  const addText = document.createTextNode("Chai aut code");
+
+  // Text node ko <h1> element ke andar append karte hain
+  div.appendChild(addText);
+
+  // Final <h1> element ko document body mein add karte hain (page pe dikhane ke liye)
+  document.body.appendChild(div);
+</script>
+</html>
