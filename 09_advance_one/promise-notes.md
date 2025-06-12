@@ -148,6 +148,6 @@ fetch('https://jsonplaceholder.typicode.com/users')
 - Use `finally()` for cleanup (like loading spinners etc).
 - `await` can make code look synchronous (clean & readable).
 
-### images
+### images.....
 ![alt text](image.png)
 ![alt text](image-1.png)
